@@ -1,0 +1,7 @@
+{
+	"employees": [
+		{ "id": 1, "name": "Nikita", "salary": "1000", "like": true, "increase": true },
+		{ "id": 2, "name": "Lev", "salary": "500", "like": false, "increase": false },
+		{ "id": 3, "name": "Kirill", "salary": "1500", "like": false, "increase": false }
+	]
+}
