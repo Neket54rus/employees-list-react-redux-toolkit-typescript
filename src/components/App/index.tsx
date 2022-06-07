@@ -66,8 +66,8 @@ export const App: React.FC = () => {
 			const newList = [
 				...employeesList,
 				{
-					id: employeesList.length + 1,
-					name,
+					id: employeesList.length ? employeesList[employeesList.length - 1].id + 1 : 1,
+					name: name,
 					salary: !salary ? "0" : salary,
 					like: false,
 					increase: false,
